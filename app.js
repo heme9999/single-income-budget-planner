@@ -128,7 +128,7 @@
         p.expenses.debt = [row('Credit card', 150, 0, 20)];
         p.expenses.insurance = [row('Health + car', 180, 0, 10)];
         p.expenses.savings = [row('Emergency fund', 200, 0, 1)];
-        p.expenses.personal = [row('Fun money', 150, 0, '')];
+        p.expenses.personal = [row('Fun money', 30, 0, '')];
         p.sinking = [
           { id: uid(), name: 'Car insurance (annual)', amount: 1200, freq: 'annual' },
           { id: uid(), name: 'Kids\u2019 clothes + school (annual)', amount: 600, freq: 'annual' }
@@ -171,7 +171,7 @@
         p.expenses.debt = [row('Credit card', 200, 0, 20)];
         p.expenses.insurance = [row('Renter + health', 150, 0, 10)];
         p.expenses.savings = [row('Emergency fund', 300, 0, 1)];
-        p.expenses.personal = [row('Fun money', 240, 0, '')];
+        p.expenses.personal = [row('Fun money', 40, 0, '')];
         p.sinking = [{ id: uid(), name: 'Car insurance (annual)', amount: 1200, freq: 'annual' }];
         p.emergencySavings = 2500;
         return p;
