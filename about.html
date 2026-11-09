@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About &amp; How This Planner Works</title>
+<meta name="description" content="How the Single Income Budget Planner works: methods, assumptions, and what it does not do. A free, client-side monthly budget tool for single income households.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="index.html">Single Income Budget Planner</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="how-to-budget-on-one-income.html">How to budget</a>
+      <a href="50-30-20-rule-single-income.html">50/30/20 rule</a>
+      <a href="single-income-budget-with-kids.html">Budget with kids</a>
+      <a href="irregular-income-budgeting.html">Irregular income</a>
+      <a href="printable-budget-worksheet.html">Printable worksheet</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1>About &amp; How This Planner Works</h1>
+  <p class="lede">Last updated: 2026-11-09.</p>
+
+  <h2>What this site is</h2>
+  <p>A free, no-signup monthly budget planner for households living on one income. It is a static website: plain HTML, CSS, and JavaScript, with no server, no database, and no account. Everything happens in your browser, and your numbers are stored only in your browser&rsquo;s local storage.</p>
+
+  <h2>How the numbers are calculated</h2>
+  <ul>
+    <li><strong>Monthly income.</strong> Each paycheck is converted to a monthly amount: weekly pay × 52 ÷ 12, pay every two weeks × 26 ÷ 12, pay twice a month × 2, monthly pay as entered. Irregular pay is either the average of the last three months, or a base amount plus an average variable amount.</li>
+    <li><strong>Left to assign.</strong> Monthly income minus total planned spending minus monthly sinking-fund set-asides. The target is $0: every dollar has a job before the month starts.</li>
+    <li><strong>Sinking funds.</strong> An annual cost divided by 12, or a twice-yearly cost multiplied by 2 and divided by 12, gives the monthly set-aside.</li>
+    <li><strong>Emergency fund cover.</strong> Your emergency savings balance divided by one month of essential spending. Essentials here means housing, utilities, food, transport, childcare, minimum debt payments, and insurance.</li>
+    <li><strong>Split guide.</strong> Needs are housing, utilities, food, transport, childcare, insurance, and debt payments. Wants are personal spending. Savings are the savings category plus sinking-fund set-asides. The planner compares your shares with the guide you pick — 50/30/20, 60/20/20, austerity 70/15/15, or your own custom split — as a comparison, not a grade.</li>
+  </ul>
+
+  <h2>Assumptions, stated plainly</h2>
+  <ul>
+    <li>All amounts are in US dollars, and all guidance assumes US-style monthly bills and pay cycles.</li>
+    <li>The 50/30/20 rule is a widely used rule of thumb, not a standard or a requirement. The 60/20/20 and austerity splits are variations of the same idea for tighter months.</li>
+    <li>Category shares are calculated against take-home pay, not gross pay.</li>
+    <li>Example data in the household presets (single adult, single parent, one-earner couple) is illustrative only. Your costs will differ.</li>
+    <li>The planner does not calculate tax, investment returns, loan interest, or debt payoff dates. Those are deliberately out of scope for this version.</li>
+  </ul>
+
+  <h2>What this tool does not do</h2>
+  <p>It does not give financial advice, recommend products, or tell you what to spend. It shows you the arithmetic of your own plan so you can decide. If debt feels unmanageable, consider a nonprofit credit counselor. If you need tax or investment advice, talk to a licensed professional.</p>
+
+  <h2>Why there is no account</h2>
+  <p>A budget is personal. An account would mean your numbers live on someone else&rsquo;s server. Here they live in your browser, and the backup button lets you keep a copy as a file you own. That is a deliberate design choice, not a missing feature.</p>
+
+  <p><a href="index.html">Back to the monthly budget planner</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="about.html">About &amp; methods</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="printable-budget-worksheet.html">Printable worksheet</a>
+    <span>Single Income Budget Planner — free tool, no signup.</span>
+  </div>
+</footer>
+</body>
+</html>

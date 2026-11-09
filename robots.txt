@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://single-income-budget-planner.pages.dev/sitemap.xml
